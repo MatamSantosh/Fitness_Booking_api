@@ -11,9 +11,9 @@ def seed_classes():
         db.close()
         return
     classes = [
-        FitnessClass(name="Yoga", instructor="Anu", time=now + timedelta(days=1), available_slots=5),
-        FitnessClass(name="Zumba", instructor="John", time=now + timedelta(days=2), available_slots=8),
-        FitnessClass(name="HIIT", instructor="Sara", time=now + timedelta(days=3), available_slots=10)
+        FitnessClass(name="Yoga", instructor="San", time=now + timedelta(days=1), available_slots=5),
+        FitnessClass(name="Zumba", instructor="Sou", time=now + timedelta(days=2), available_slots=8),
+        FitnessClass(name="HIIT", instructor="Sandhya", time=now + timedelta(days=3), available_slots=10)
     ]
     db.add_all(classes)
     db.commit()
