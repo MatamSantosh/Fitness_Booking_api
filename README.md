@@ -29,9 +29,9 @@
     http://localhost:8000/docs
     ```
    To see a list of available endpoints:
-   - 1./classes
-   - 2./book
-   - 3./bookings
+   - /classes
+   - /book
+   - /bookings
 
 ## Sample Requests
 
