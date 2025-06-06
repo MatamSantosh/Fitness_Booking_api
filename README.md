@@ -42,10 +42,10 @@ curl http://127.0.0.1:8000/classes?timezone=UTC
 
 ### Book Class
 ```bash
-curl -X POST http://127.0.0.1:8000/book -H "Content-Type: application/json" -d '{"class_id": 1, "client_name": "Amit", "client_email": "amit@example.com"}'
+curl -X POST http://127.0.0.1:8000/book -H "Content-Type: application/json" -d '{"class_id": 1, "client_name": "san", "client_email": "san@example.com"}'
 ```
 
 ### View Bookings
 ```bash
-curl http://127.0.0.1:8000/bookings?email=amit@example.com
+curl http://127.0.0.1:8000/bookings?email=san@example.com
 ```
